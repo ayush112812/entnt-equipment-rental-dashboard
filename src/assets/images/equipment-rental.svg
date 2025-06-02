@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .title { font: bold 72px sans-serif; fill: #E67E22; }
+    .subtitle { font: bold 36px sans-serif; fill: #2C3E50; }
+    .category { font: 18px sans-serif; fill: #7F8C8D; }
+    .status { font: bold 16px sans-serif; fill: white; }
+    .status-bg { rx: 4; ry: 4; }
+    .equipment { fill: #E67E22; }
+    .details { font: bold 24px sans-serif; fill: #2C3E50; }
+  </style>
+  
+  <!-- Header -->
+  <text x="400" y="80" class="title" text-anchor="middle">ENTNT</text>
+  <text x="400" y="130" class="subtitle" text-anchor="middle">EQUIPMENT RENTAL</text>
+  
+  <!-- Equipment Grid -->
+  <g transform="translate(50, 160)">
+    <!-- Row 1 -->
+    <g transform="translate(0, 0)">
+      <!-- Excavator -->
+      <image href="data:image/svg+xml;base64,..." x="0" y="0" width="200" height="120"/>
+      <text x="100" y="150" class="details" text-anchor="middle">Excavator</text>
+      <text x="100" y="175" class="category" text-anchor="middle">Heavy Machinery</text>
+      <rect x="70" y="185" width="60" height="25" class="status-bg" fill="#27AE60"/>
+      <text x="100" y="203" class="status" text-anchor="middle">Good</text>
+    </g>
+    
+    <!-- Concrete Mixer -->
+    <g transform="translate(250, 0)">
+      <image href="data:image/svg+xml;base64,..." x="0" y="0" width="200" height="120"/>
+      <text x="100" y="150" class="details" text-anchor="middle">Concrete Mixer</text>
+      <text x="100" y="175" class="category" text-anchor="middle">Construction</text>
+      <rect x="70" y="185" width="60" height="25" class="status-bg" fill="#3498DB"/>
+      <text x="100" y="203" class="status" text-anchor="middle">Rented</text>
+    </g>
+    
+    <!-- Forklift -->
+    <g transform="translate(500, 0)">
+      <image href="data:image/svg+xml;base64,..." x="0" y="0" width="200" height="120"/>
+      <text x="100" y="150" class="details" text-anchor="middle">Forklift</text>
+      <text x="100" y="175" class="category" text-anchor="middle">Warehouse Equipment</text>
+      <rect x="60" y="185" width="80" height="25" class="status-bg" fill="#E74C3C"/>
+      <text x="100" y="203" class="status" text-anchor="middle">Maintenance</text>
+    </g>
+  </g>
+</svg> 
